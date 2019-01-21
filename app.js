@@ -2,10 +2,8 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/rootSchema');
 const mongoose = require('mongoose');
-const cors = require('cors')
 
 const app = express()
-app.use(cors())
 
 // put in your own mongodb uri credentials here!
 mongoose.connect("mongodb://shopifyDemo:shopify123@ds161804.mlab.com:61804/shopifychallenge")
