@@ -49,13 +49,13 @@ To get a dynamic version via graphiql run locally, and go to localhost:4000/grap
 <h3>RootQueries</h3>
 
 <h5>product(id: ID): Product</h5> 
-Pass in the product id to fetch the product
+Pass in the product id to fetch the product model
 
 <h5>products(inStock: Boolean): 
 [Product]</h5> Get all the products, and if the provided boolean is true, it'll only fetch products that are in stock, the default is false
 
 <h5>cart(id: ID): Cart</h5> 
-Pass in the cart id to the cart
+Pass in the cart id, to fetch the cart model
 
 <h5>carts: [Cart]</h5> 
 
